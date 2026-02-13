@@ -17,7 +17,7 @@ This repository contains two major notebooks demonstrating real-time data ingest
 1. Clone this repository into your Databricks workspace.
 2. Open and run the notebooks in order:
    - `2-read-kafka-store-to-lakebase-realtime` in order to start the stream read path
-   - `01-create-and-save-test-data-to-kafka-read-topic` in order to start writing to upstream Kafka topic which will be the downstream source
+   - `1-create-and-save-test-data-to-kafka-read-topic` in order to start writing to upstream Kafka topic which will be the downstream source
 3. Follow the instructions in each notebook to configure Kafka endpoints and Delta Lake destinations.
 
 ## Requirements
